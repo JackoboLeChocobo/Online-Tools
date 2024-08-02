@@ -1,0 +1,1330 @@
+@font-face
+	{
+    font-family: "Ubuntu-R";
+    src: url("fonts/ubuntu-font-family-0.83/Ubuntu-R.ttf");
+    }
+
+@font-face
+	{
+    font-family: "Ubuntu-B";
+    src: url("fonts/ubuntu-font-family-0.83/Ubuntu-B.ttf");
+    }
+
+@font-face
+	{
+    font-family: "Ubuntu-RI";
+    src: url("fonts/ubuntu-font-family-0.83/Ubuntu-RI.ttf");
+    }
+
+html,body
+	{
+	margin:0;
+	padding:0;
+	width:100vw;
+	overflow-x:hidden;
+	}
+
+#titre
+	{
+	width:90vw;
+	height:10vh;
+	position:absolute;
+	top:2.5vh;
+	left:5vw;
+	font-size:7.5vh;
+	text-align:center;
+	font-family: "Ubuntu-B";
+	}
+
+#clavier_base
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/clavier_base.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+.show
+	{
+	visibility:visible;
+	}
+
+.hidden
+	{
+	visibility:hidden;
+	}
+
+#touche_esc
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_esc.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f1
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f1.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f2
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f2.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f3
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f3.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f4
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f4.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f5
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f5.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f6
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f6.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f7
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f7.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f8
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f8.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f9
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f9.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f10
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f10.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f11
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f11.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_f12
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f12.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_exposant_2
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_exposant_2.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_1
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_1.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_2
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_2.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_3
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_3.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_4
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_4.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_5
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_5.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_6
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_6.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_7
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_7.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_8
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_8.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_9
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_9.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_0
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_0.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_degre
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_degre.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_plus
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_plus.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_suppr_g
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_suppr_g.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_imp_ecran
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_imp_ecran.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_arret_defil
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_arret_defil.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_pause_attn
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_pause_attn.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_verr_num
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_verr_num.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_division
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_division.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_multiplication
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_multiplication.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_soustraction
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_soustraction.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_tab
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_tab.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_a
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_a.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_z
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_z.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_e
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_e.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_r
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_r.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_t
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_t.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_y
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_y.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_u
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_u.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_i
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_i.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_o
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_o.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_p
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_p.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_accents
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_accents.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_dollar
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_dollar.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_entree
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_entree.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_insertion
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_insertion.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+	
+#touche_fleche
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_fleche.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}	
+
+#touche_fleche_haut
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_fleche_haut.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_num_7
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_7.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_8
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_8.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_9
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_9.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_addition
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_addition.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_majuscule
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_majuscule.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_q
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_q.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_s
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_s.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_d
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_d.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_f
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_f.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_g
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_g.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_h
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_h.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_j
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_j.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_k
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_k.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_l
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_l.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_m
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_m.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_pourcentage
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_pourcentage.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_micro_u
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_micro_u.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_suppr_d
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_suppr_d.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_fin
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_fin.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_fleche_bas
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_fleche_bas.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_4
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_4.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_5
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_5.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_6
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_6.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_shift_g
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_shift_g.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_sup_inf
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_sup_inf.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_w
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_w.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_x
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_x.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_c
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_c.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_v
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_v.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_b
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_b.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_n
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_n.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_virgule
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_virgule.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_point_virgule
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_point_virgule.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_deux_points
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_deux_points.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_exclamation
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_exclamation.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_shift_d
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_shift_d.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_haut
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_haut.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_1
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_1.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_2
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_2.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_3
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_3.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_entree
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_entree.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#touche_ctrl_g
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_ctrl_g.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_fn
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_fn.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_alt
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_alt.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_espace
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_espace.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_alt_gr
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_alt_gr.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_windows
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_windows.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_ctrl_d
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_ctrl_d.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_gauche
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_gauche.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_bas
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_bas.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_droite
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_droite.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_0
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_0.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+	
+#touche_num_point
+	{
+	width:100vw;
+	height:100vh;
+	background:url("images/sombre/touche_num_point.png") no-repeat center;
+	background-size: auto 100vh;
+	image-rendering: crisp-edges;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+#test-target
+	{
+	width:90vw;
+	height:30vh;
+	position:absolute;
+	top:55vh;
+	left:5vw;
+	font-size:2.5vh;
+	font-family: "Ubuntu-B";
+	}
+
+#infos
+	{
+	width:90vw;
+	height:5vh;
+	position:absolute;
+	bottom:2.5vh;
+	left:5vw;
+	font-size:2.5vh;
+	text-align:center;
+	font-family: "Ubuntu-B";
+	}
