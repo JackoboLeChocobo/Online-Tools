@@ -110,8 +110,17 @@ textarea.addEventListener("keydown", (e) => {
     if(e.code=="ArrowDown") { document.getElementById("touche_bas").classList.remove("hidden"); document.getElementById("touche_bas").classList.add("show"); }
     if(e.code=="ArrowRight") { document.getElementById("touche_droite").classList.remove("hidden"); document.getElementById("touche_droite").classList.add("show"); }
     if((e.code=="Numpad0")) { document.getElementById("touche_num_0").classList.remove("hidden"); document.getElementById("touche_num_0").classList.add("show"); }
-    if((e.code=="NumpadDecimal")) { document.getElementById("touche_num_point").classList.remove("hidden"); document.getElementById("touche_num_point").classList.add("show"); }
+    if((e.code=="NumpadDecimal")) { document.getElementById("touche_num_point").classList.remove("hidden"); document.getElementById("touche_num_point").classList.add("show"); }   
   }
+
+  if(e.key=="F3") e.preventDefault();  
+  if(e.key=="F5") e.preventDefault();
+  if(e.key=="F6") e.preventDefault();
+  if(e.key=="F7") e.preventDefault();
+  if(e.key=="F10") e.preventDefault();
+  if(e.key=="F11") e.preventDefault();
+  if(e.key=="F12") e.preventDefault();
+  if(e.key=="AltLeft") e.preventDefault();  
 });
 
 textarea.addEventListener("keyup", (e) => {
